@@ -1,3 +1,6 @@
+// var _ = require('lodash');
+// console.log(_);
+
 var body = document.querySelector("body");
 var colorInput1 = document.querySelectorAll("input[type=color]")[0];
 var colorInput2 = document.querySelectorAll("input[type=color]")[1];
@@ -29,9 +32,6 @@ function changeColor(e) {
 	h3.innerHTML = codeString;
 
 	body.style.backgroundImage = codeString;
-
-
-
 }
 
 
